@@ -1,6 +1,6 @@
 {
   "name": "wise-deploy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "deploy package files to  server",
   "main": "index.js",
   "bin": {
