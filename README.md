@@ -12,6 +12,8 @@ $ npm install -g wise-deploy
 $ deploy init
 $ deploy upload -c <envName>
 $ deploy restart -c <envName>
+$ deploy docker -c <envName>
+$ deploy transfer -c <envName>
 ```
 
 ## Usage
@@ -29,6 +31,8 @@ Commands:
   init [options]     初始化配置文件
   upload [options]   上传构建产物
   restart [options]  依次执行传入命令
+  docker [options]    构建docker镜像
+  transfer [options]  镜像转移
 ```
 
 
